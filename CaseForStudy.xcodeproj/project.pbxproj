@@ -7,6 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0275C3E4221AB28B003E4216 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0275C3E3221AB28B003E4216 /* AVFoundation.framework */; };
+		0276381721D4AD360066073E /* 1.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 027637FE21D4AD350066073E /* 1.lrc */; };
+		0276381821D4AD360066073E /* ZFMusic.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0276380221D4AD350066073E /* ZFMusic.plist */; };
+		0276381921D4AD360066073E /* 2.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 0276380321D4AD350066073E /* 2.lrc */; };
+		0276381A21D4AD360066073E /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0276380521D4AD350066073E /* MusicViewController.m */; };
+		0276381B21D4AD360066073E /* ZFMusicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0276380621D4AD350066073E /* ZFMusicCell.m */; };
+		0276381C21D4AD360066073E /* MusicLrcTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0276380721D4AD350066073E /* MusicLrcTool.m */; };
+		0276381D21D4AD360066073E /* CALayer+PauseAimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0276380921D4AD350066073E /* CALayer+PauseAimate.m */; };
+		0276381E21D4AD360066073E /* ZFLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0276380C21D4AD350066073E /* ZFLabel.m */; };
+		0276381F21D4AD360066073E /* MusicLrcScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0276380D21D4AD360066073E /* MusicLrcScrollView.m */; };
+		0276382021D4AD360066073E /* 我好像在哪见过你_歌词.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 0276380E21D4AD360066073E /* 我好像在哪见过你_歌词.lrc */; };
+		0276382121D4AD360066073E /* ZFMusicPlistModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0276380F21D4AD360066073E /* ZFMusicPlistModel.m */; };
+		0276382221D4AD360066073E /* AssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0276381021D4AD360066073E /* AssetModel.m */; };
+		0276382321D4AD360066073E /* Mark Ronson - Uptown Funk (feat. Bruno Mars).lrc in Resources */ = {isa = PBXBuildFile; fileRef = 0276381121D4AD360066073E /* Mark Ronson - Uptown Funk (feat. Bruno Mars).lrc */; };
+		0276382421D4AD360066073E /* MusicLrcModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0276381321D4AD360066073E /* MusicLrcModel.m */; };
+		0276382521D4AD360066073E /* NSString+ZFMusicExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0276381421D4AD360066073E /* NSString+ZFMusicExtension.m */; };
+		0276382721D4B9BF0066073E /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0276382621D4B9BF0066073E /* 2.mp3 */; };
+		027CD86B21E2F73F003EFD9A /* RuntimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 027CD86A21E2F73F003EFD9A /* RuntimeViewController.m */; };
+		02BA05B921BFAFCB0022F74B /* CFSTabBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BA05B821BFAFCB0022F74B /* CFSTabBarConfig.m */; };
+		02BA05BD21BFB5C70022F74B /* UIButton+Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BA05BC21BFB5C70022F74B /* UIButton+Config.m */; };
+		02BA05C121BFB6240022F74B /* BUttonViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BA05BF21BFB6240022F74B /* BUttonViewC.m */; };
+		02BA05C221BFB6240022F74B /* BUttonViewC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02BA05C021BFB6240022F74B /* BUttonViewC.xib */; };
+		02D3DDFD222CFDD600B0E8D9 /* MalstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D3DDFB222CFDD600B0E8D9 /* MalstViewController.m */; };
+		02D3DDFE222CFDD600B0E8D9 /* MalstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02D3DDFC222CFDD600B0E8D9 /* MalstViewController.xib */; };
+		02D6B47A221FF6850053F607 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B16B8720F84D8E00F2032B /* BaseTableViewCell.m */; };
+		02D6B47B221FF6850053F607 /* MusicLrcTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0276380721D4AD350066073E /* MusicLrcTool.m */; };
+		02D6B47C221FF6850053F607 /* MusicLrcScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0276380D21D4AD360066073E /* MusicLrcScrollView.m */; };
+		02D6B47D221FF6850053F607 /* ZFLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0276380C21D4AD350066073E /* ZFLabel.m */; };
+		02D6B47E221FF6850053F607 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B16B5320F84B2B00F2032B /* ViewController.m */; };
+		02D6B47F221FF6850053F607 /* BUttonViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BA05BF21BFB6240022F74B /* BUttonViewC.m */; };
+		02D6B480221FF6850053F607 /* AssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0276381021D4AD360066073E /* AssetModel.m */; };
+		02D6B481221FF6850053F607 /* SensibiltyViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B16B8A20F850B000F2032B /* SensibiltyViewC.m */; };
+		02D6B482221FF6850053F607 /* CALayer+PauseAimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0276380921D4AD350066073E /* CALayer+PauseAimate.m */; };
+		02D6B483221FF6850053F607 /* CFSTabBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BA05B821BFAFCB0022F74B /* CFSTabBarConfig.m */; };
+		02D6B484221FF6850053F607 /* NSString+ZFMusicExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0276381421D4AD360066073E /* NSString+ZFMusicExtension.m */; };
+		02D6B485221FF6850053F607 /* ZFMusicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0276380621D4AD350066073E /* ZFMusicCell.m */; };
+		02D6B486221FF6850053F607 /* SensibilityTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B16B8220F84B8900F2032B /* SensibilityTool.m */; };
+		02D6B487221FF6850053F607 /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0276380521D4AD350066073E /* MusicViewController.m */; };
+		02D6B488221FF6850053F607 /* MusicLrcModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0276381321D4AD360066073E /* MusicLrcModel.m */; };
+		02D6B489221FF6850053F607 /* ZFMusicPlistModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0276380F21D4AD360066073E /* ZFMusicPlistModel.m */; };
+		02D6B48A221FF6850053F607 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B16B5E20F84B2B00F2032B /* main.m */; };
+		02D6B48B221FF6850053F607 /* RuntimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 027CD86A21E2F73F003EFD9A /* RuntimeViewController.m */; };
+		02D6B48C221FF6850053F607 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B16B5020F84B2B00F2032B /* AppDelegate.m */; };
+		02D6B48D221FF6850053F607 /* UIButton+Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BA05BC21BFB5C70022F74B /* UIButton+Config.m */; };
+		02D6B48F221FF6850053F607 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0275C3E3221AB28B003E4216 /* AVFoundation.framework */; };
+		02D6B490221FF6850053F607 /* libPods-CaseForStudy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE30069A45D39BD3B998344 /* libPods-CaseForStudy.a */; };
+		02D6B492221FF6850053F607 /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0276382621D4B9BF0066073E /* 2.mp3 */; };
+		02D6B493221FF6850053F607 /* 我好像在哪见过你_歌词.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 0276380E21D4AD360066073E /* 我好像在哪见过你_歌词.lrc */; };
+		02D6B494221FF6850053F607 /* minganci.txt in Resources */ = {isa = PBXBuildFile; fileRef = 18B16B8C20F8519D00F2032B /* minganci.txt */; };
+		02D6B495221FF6850053F607 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B16B5A20F84B2B00F2032B /* LaunchScreen.storyboard */; };
+		02D6B497221FF6850053F607 /* ZFMusic.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0276380221D4AD350066073E /* ZFMusic.plist */; };
+		02D6B498221FF6850053F607 /* Mark Ronson - Uptown Funk (feat. Bruno Mars).lrc in Resources */ = {isa = PBXBuildFile; fileRef = 0276381121D4AD360066073E /* Mark Ronson - Uptown Funk (feat. Bruno Mars).lrc */; };
+		02D6B499221FF6850053F607 /* 1.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 027637FE21D4AD350066073E /* 1.lrc */; };
+		02D6B49A221FF6850053F607 /* BUttonViewC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02BA05C021BFB6240022F74B /* BUttonViewC.xib */; };
+		02D6B49B221FF6850053F607 /* 2.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 0276380321D4AD350066073E /* 2.lrc */; };
+		02D6B49C221FF6850053F607 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B16B5520F84B2B00F2032B /* Main.storyboard */; };
+		02D6B4A4221FFAEE0053F607 /* Ceshi.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02D6B4A3221FFAEE0053F607 /* Ceshi.xcassets */; };
+		02D6B4A7221FFB650053F607 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02D6B4A6221FFB650053F607 /* Images.xcassets */; };
+		02DE83E72227C0AC004AB212 /* UIButton+add.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DE83E62227C0AC004AB212 /* UIButton+add.m */; };
 		18B16B5120F84B2B00F2032B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B16B5020F84B2B00F2032B /* AppDelegate.m */; };
 		18B16B5420F84B2B00F2032B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B16B5320F84B2B00F2032B /* ViewController.m */; };
 		18B16B5720F84B2B00F2032B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B16B5520F84B2B00F2032B /* Main.storyboard */; };
@@ -19,6 +78,8 @@
 		18B16B8820F84D8E00F2032B /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B16B8720F84D8E00F2032B /* BaseTableViewCell.m */; };
 		18B16B8B20F850B000F2032B /* SensibiltyViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B16B8A20F850B000F2032B /* SensibiltyViewC.m */; };
 		18B16B8D20F8519D00F2032B /* minganci.txt in Resources */ = {isa = PBXBuildFile; fileRef = 18B16B8C20F8519D00F2032B /* minganci.txt */; };
+		38EE4338190FD4A8B3616E88 /* libPods-CaseForStudyCeshi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8167B6752CE9C6DC63A3CC /* libPods-CaseForStudyCeshi.a */; };
+		8F8E0944BB460E47AA51F10A /* libPods-CaseForStudy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE30069A45D39BD3B998344 /* libPods-CaseForStudy.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +100,55 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0275C3E3221AB28B003E4216 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		027637FE21D4AD350066073E /* 1.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 1.lrc; sourceTree = "<group>"; };
+		027637FF21D4AD350066073E /* ZFMusicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFMusicCell.h; sourceTree = "<group>"; };
+		0276380021D4AD350066073E /* ZFMusicPlistModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFMusicPlistModel.h; sourceTree = "<group>"; };
+		0276380121D4AD350066073E /* MusicLrcModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicLrcModel.h; sourceTree = "<group>"; };
+		0276380221D4AD350066073E /* ZFMusic.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ZFMusic.plist; sourceTree = "<group>"; };
+		0276380321D4AD350066073E /* 2.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 2.lrc; sourceTree = "<group>"; };
+		0276380421D4AD350066073E /* MusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicViewController.h; sourceTree = "<group>"; };
+		0276380521D4AD350066073E /* MusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicViewController.m; sourceTree = "<group>"; };
+		0276380621D4AD350066073E /* ZFMusicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFMusicCell.m; sourceTree = "<group>"; };
+		0276380721D4AD350066073E /* MusicLrcTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicLrcTool.m; sourceTree = "<group>"; };
+		0276380821D4AD350066073E /* NSString+ZFMusicExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ZFMusicExtension.h"; sourceTree = "<group>"; };
+		0276380921D4AD350066073E /* CALayer+PauseAimate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+PauseAimate.m"; sourceTree = "<group>"; };
+		0276380A21D4AD350066073E /* MusicLrcTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicLrcTool.h; sourceTree = "<group>"; };
+		0276380B21D4AD350066073E /* ZFLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFLabel.h; sourceTree = "<group>"; };
+		0276380C21D4AD350066073E /* ZFLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFLabel.m; sourceTree = "<group>"; };
+		0276380D21D4AD360066073E /* MusicLrcScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicLrcScrollView.m; sourceTree = "<group>"; };
+		0276380E21D4AD360066073E /* 我好像在哪见过你_歌词.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "我好像在哪见过你_歌词.lrc"; sourceTree = "<group>"; };
+		0276380F21D4AD360066073E /* ZFMusicPlistModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFMusicPlistModel.m; sourceTree = "<group>"; };
+		0276381021D4AD360066073E /* AssetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssetModel.m; sourceTree = "<group>"; };
+		0276381121D4AD360066073E /* Mark Ronson - Uptown Funk (feat. Bruno Mars).lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mark Ronson - Uptown Funk (feat. Bruno Mars).lrc"; sourceTree = "<group>"; };
+		0276381221D4AD360066073E /* AssetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetModel.h; sourceTree = "<group>"; };
+		0276381321D4AD360066073E /* MusicLrcModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicLrcModel.m; sourceTree = "<group>"; };
+		0276381421D4AD360066073E /* NSString+ZFMusicExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZFMusicExtension.m"; sourceTree = "<group>"; };
+		0276381521D4AD360066073E /* CALayer+PauseAimate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+PauseAimate.h"; sourceTree = "<group>"; };
+		0276381621D4AD360066073E /* MusicLrcScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicLrcScrollView.h; sourceTree = "<group>"; };
+		0276382621D4B9BF0066073E /* 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2.mp3; sourceTree = "<group>"; };
+		027CD86921E2F73F003EFD9A /* RuntimeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuntimeViewController.h; sourceTree = "<group>"; };
+		027CD86A21E2F73F003EFD9A /* RuntimeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeViewController.m; sourceTree = "<group>"; };
+		02BA05B221BFAC820022F74B /* CFSColorHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFSColorHeader.h; sourceTree = "<group>"; };
+		02BA05B321BFACBB0022F74B /* CFSUIConfigHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFSUIConfigHeader.h; sourceTree = "<group>"; };
+		02BA05B421BFAD080022F74B /* CFSSizeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFSSizeHeader.h; sourceTree = "<group>"; };
+		02BA05B521BFAD330022F74B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		02BA05B721BFAFCB0022F74B /* CFSTabBarConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFSTabBarConfig.h; sourceTree = "<group>"; };
+		02BA05B821BFAFCB0022F74B /* CFSTabBarConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFSTabBarConfig.m; sourceTree = "<group>"; };
+		02BA05BB21BFB5C70022F74B /* UIButton+Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Config.h"; sourceTree = "<group>"; };
+		02BA05BC21BFB5C70022F74B /* UIButton+Config.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Config.m"; sourceTree = "<group>"; };
+		02BA05BE21BFB6240022F74B /* BUttonViewC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BUttonViewC.h; sourceTree = "<group>"; };
+		02BA05BF21BFB6240022F74B /* BUttonViewC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BUttonViewC.m; sourceTree = "<group>"; };
+		02BA05C021BFB6240022F74B /* BUttonViewC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BUttonViewC.xib; sourceTree = "<group>"; };
+		02D3DDFA222CFDD600B0E8D9 /* MalstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MalstViewController.h; sourceTree = "<group>"; };
+		02D3DDFB222CFDD600B0E8D9 /* MalstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MalstViewController.m; sourceTree = "<group>"; };
+		02D3DDFC222CFDD600B0E8D9 /* MalstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MalstViewController.xib; sourceTree = "<group>"; };
+		02D6B4A1221FF6850053F607 /* CaseForStudyCeshi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaseForStudyCeshi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02D6B4A2221FF6850053F607 /* CaseForStudy copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CaseForStudy copy-Info.plist"; path = "/Users/apple/Desktop/CaseForStudy/CaseForStudy copy-Info.plist"; sourceTree = "<absolute>"; };
+		02D6B4A3221FFAEE0053F607 /* Ceshi.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Ceshi.xcassets; sourceTree = "<group>"; };
+		02D6B4A6221FFB650053F607 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		02DE83E52227C0AC004AB212 /* UIButton+add.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+add.h"; sourceTree = "<group>"; };
+		02DE83E62227C0AC004AB212 /* UIButton+add.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+add.m"; sourceTree = "<group>"; };
 		18B16B4C20F84B2B00F2032B /* CaseForStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaseForStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B16B4F20F84B2B00F2032B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18B16B5020F84B2B00F2032B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -62,13 +172,31 @@
 		18B16B8920F850AF00F2032B /* SensibiltyViewC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SensibiltyViewC.h; sourceTree = "<group>"; };
 		18B16B8A20F850B000F2032B /* SensibiltyViewC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SensibiltyViewC.m; sourceTree = "<group>"; };
 		18B16B8C20F8519D00F2032B /* minganci.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = minganci.txt; sourceTree = "<group>"; };
+		40ACD920D692559F3437E517 /* Pods-CaseForStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaseForStudy.release.xcconfig"; path = "Pods/Target Support Files/Pods-CaseForStudy/Pods-CaseForStudy.release.xcconfig"; sourceTree = "<group>"; };
+		573B2D5296257FFD3145845A /* Pods-CaseForStudyCeshi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaseForStudyCeshi.release.xcconfig"; path = "Pods/Target Support Files/Pods-CaseForStudyCeshi/Pods-CaseForStudyCeshi.release.xcconfig"; sourceTree = "<group>"; };
+		743CEF55778F3B8FD047504F /* Pods-CaseForStudyCeshi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaseForStudyCeshi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CaseForStudyCeshi/Pods-CaseForStudyCeshi.debug.xcconfig"; sourceTree = "<group>"; };
+		D0930CEE2A4D9B6B1AA8DB2A /* Pods-CaseForStudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaseForStudy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CaseForStudy/Pods-CaseForStudy.debug.xcconfig"; sourceTree = "<group>"; };
+		EE8167B6752CE9C6DC63A3CC /* libPods-CaseForStudyCeshi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CaseForStudyCeshi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE30069A45D39BD3B998344 /* libPods-CaseForStudy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CaseForStudy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		02D6B48E221FF6850053F607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02D6B48F221FF6850053F607 /* AVFoundation.framework in Frameworks */,
+				02D6B490221FF6850053F607 /* libPods-CaseForStudy.a in Frameworks */,
+				38EE4338190FD4A8B3616E88 /* libPods-CaseForStudyCeshi.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		18B16B4920F84B2B00F2032B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0275C3E4221AB28B003E4216 /* AVFoundation.framework in Frameworks */,
+				8F8E0944BB460E47AA51F10A /* libPods-CaseForStudy.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,13 +217,93 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		027637FD21D4AD0C0066073E /* 音乐播放器 */ = {
+			isa = PBXGroup;
+			children = (
+				027637FE21D4AD350066073E /* 1.lrc */,
+				0276382621D4B9BF0066073E /* 2.mp3 */,
+				0276380321D4AD350066073E /* 2.lrc */,
+				0276380E21D4AD360066073E /* 我好像在哪见过你_歌词.lrc */,
+				0276381221D4AD360066073E /* AssetModel.h */,
+				0276381021D4AD360066073E /* AssetModel.m */,
+				0276381521D4AD360066073E /* CALayer+PauseAimate.h */,
+				0276380921D4AD350066073E /* CALayer+PauseAimate.m */,
+				0276381121D4AD360066073E /* Mark Ronson - Uptown Funk (feat. Bruno Mars).lrc */,
+				0276380121D4AD350066073E /* MusicLrcModel.h */,
+				0276381321D4AD360066073E /* MusicLrcModel.m */,
+				0276381621D4AD360066073E /* MusicLrcScrollView.h */,
+				0276380D21D4AD360066073E /* MusicLrcScrollView.m */,
+				0276380A21D4AD350066073E /* MusicLrcTool.h */,
+				0276380721D4AD350066073E /* MusicLrcTool.m */,
+				0276380421D4AD350066073E /* MusicViewController.h */,
+				0276380521D4AD350066073E /* MusicViewController.m */,
+				0276380821D4AD350066073E /* NSString+ZFMusicExtension.h */,
+				0276381421D4AD360066073E /* NSString+ZFMusicExtension.m */,
+				0276380B21D4AD350066073E /* ZFLabel.h */,
+				0276380C21D4AD350066073E /* ZFLabel.m */,
+				0276380221D4AD350066073E /* ZFMusic.plist */,
+				027637FF21D4AD350066073E /* ZFMusicCell.h */,
+				0276380621D4AD350066073E /* ZFMusicCell.m */,
+				0276380021D4AD350066073E /* ZFMusicPlistModel.h */,
+				0276380F21D4AD360066073E /* ZFMusicPlistModel.m */,
+			);
+			path = "音乐播放器";
+			sourceTree = "<group>";
+		};
+		027CD86821E2F727003EFD9A /* Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				027CD86921E2F73F003EFD9A /* RuntimeViewController.h */,
+				027CD86A21E2F73F003EFD9A /* RuntimeViewController.m */,
+			);
+			path = Runtime;
+			sourceTree = "<group>";
+		};
+		02BA05B121BFAC040022F74B /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				02BA05B221BFAC820022F74B /* CFSColorHeader.h */,
+				02BA05B321BFACBB0022F74B /* CFSUIConfigHeader.h */,
+				02BA05B421BFAD080022F74B /* CFSSizeHeader.h */,
+				02BA05B521BFAD330022F74B /* PrefixHeader.pch */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		02BA05B621BFAE5A0022F74B /* CYLtab */ = {
+			isa = PBXGroup;
+			children = (
+				02BA05B721BFAFCB0022F74B /* CFSTabBarConfig.h */,
+				02BA05B821BFAFCB0022F74B /* CFSTabBarConfig.m */,
+			);
+			path = CYLtab;
+			sourceTree = "<group>";
+		};
+		02BA05BA21BFB5980022F74B /* UIbutton+Config */ = {
+			isa = PBXGroup;
+			children = (
+				02BA05BB21BFB5C70022F74B /* UIButton+Config.h */,
+				02BA05BC21BFB5C70022F74B /* UIButton+Config.m */,
+				02BA05BE21BFB6240022F74B /* BUttonViewC.h */,
+				02BA05BF21BFB6240022F74B /* BUttonViewC.m */,
+				02BA05C021BFB6240022F74B /* BUttonViewC.xib */,
+				02DE83E52227C0AC004AB212 /* UIButton+add.h */,
+				02DE83E62227C0AC004AB212 /* UIButton+add.m */,
+			);
+			path = "UIbutton+Config";
+			sourceTree = "<group>";
+		};
 		18B16B4320F84B2B00F2032B = {
 			isa = PBXGroup;
 			children = (
+				02D6B4A3221FFAEE0053F607 /* Ceshi.xcassets */,
 				18B16B4E20F84B2B00F2032B /* CaseForStudy */,
 				18B16B6720F84B2B00F2032B /* CaseForStudyTests */,
 				18B16B7220F84B2B00F2032B /* CaseForStudyUITests */,
 				18B16B4D20F84B2B00F2032B /* Products */,
+				1F81E4838DCEF7CA2D0B30BC /* Pods */,
+				85475ADE5E73776F898C31B2 /* Frameworks */,
+				02D6B4A2221FF6850053F607 /* CaseForStudy copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +313,7 @@
 				18B16B4C20F84B2B00F2032B /* CaseForStudy.app */,
 				18B16B6420F84B2B00F2032B /* CaseForStudyTests.xctest */,
 				18B16B6F20F84B2B00F2032B /* CaseForStudyUITests.xctest */,
+				02D6B4A1221FF6850053F607 /* CaseForStudyCeshi.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +321,11 @@
 		18B16B4E20F84B2B00F2032B /* CaseForStudy */ = {
 			isa = PBXGroup;
 			children = (
+				027CD86821E2F727003EFD9A /* Runtime */,
+				027637FD21D4AD0C0066073E /* 音乐播放器 */,
+				02BA05BA21BFB5980022F74B /* UIbutton+Config */,
+				02BA05B621BFAE5A0022F74B /* CYLtab */,
+				02BA05B121BFAC040022F74B /* Macro */,
 				18B16B8520F84BB800F2032B /* 敏感词过滤 */,
 				18B16B4F20F84B2B00F2032B /* AppDelegate.h */,
 				18B16B5020F84B2B00F2032B /* AppDelegate.m */,
@@ -124,6 +338,10 @@
 				18B16B5E20F84B2B00F2032B /* main.m */,
 				18B16B8620F84D8E00F2032B /* BaseTableViewCell.h */,
 				18B16B8720F84D8E00F2032B /* BaseTableViewCell.m */,
+				02D6B4A6221FFB650053F607 /* Images.xcassets */,
+				02D3DDFA222CFDD600B0E8D9 /* MalstViewController.h */,
+				02D3DDFB222CFDD600B0E8D9 /* MalstViewController.m */,
+				02D3DDFC222CFDD600B0E8D9 /* MalstViewController.xib */,
 			);
 			path = CaseForStudy;
 			sourceTree = "<group>";
@@ -158,16 +376,58 @@
 			path = "敏感词过滤";
 			sourceTree = "<group>";
 		};
+		1F81E4838DCEF7CA2D0B30BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0930CEE2A4D9B6B1AA8DB2A /* Pods-CaseForStudy.debug.xcconfig */,
+				40ACD920D692559F3437E517 /* Pods-CaseForStudy.release.xcconfig */,
+				743CEF55778F3B8FD047504F /* Pods-CaseForStudyCeshi.debug.xcconfig */,
+				573B2D5296257FFD3145845A /* Pods-CaseForStudyCeshi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		85475ADE5E73776F898C31B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0275C3E3221AB28B003E4216 /* AVFoundation.framework */,
+				FAE30069A45D39BD3B998344 /* libPods-CaseForStudy.a */,
+				EE8167B6752CE9C6DC63A3CC /* libPods-CaseForStudyCeshi.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		02D6B477221FF6850053F607 /* CaseForStudyCeshi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02D6B49E221FF6850053F607 /* Build configuration list for PBXNativeTarget "CaseForStudyCeshi" */;
+			buildPhases = (
+				02D6B478221FF6850053F607 /* [CP] Check Pods Manifest.lock */,
+				02D6B479221FF6850053F607 /* Sources */,
+				02D6B48E221FF6850053F607 /* Frameworks */,
+				02D6B491221FF6850053F607 /* Resources */,
+				02D6B49D221FF6850053F607 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CaseForStudyCeshi;
+			productName = CaseForStudy;
+			productReference = 02D6B4A1221FF6850053F607 /* CaseForStudyCeshi.app */;
+			productType = "com.apple.product-type.application";
+		};
 		18B16B4B20F84B2B00F2032B /* CaseForStudy */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18B16B7820F84B2B00F2032B /* Build configuration list for PBXNativeTarget "CaseForStudy" */;
 			buildPhases = (
+				2497CC232DA81466C18800AF /* [CP] Check Pods Manifest.lock */,
 				18B16B4820F84B2B00F2032B /* Sources */,
 				18B16B4920F84B2B00F2032B /* Frameworks */,
 				18B16B4A20F84B2B00F2032B /* Resources */,
+				090B743D3AFAE00295C22307 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -223,6 +483,9 @@
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = Apple;
 				TargetAttributes = {
+					02D6B477221FF6850053F607 = {
+						ProvisioningStyle = Manual;
+					};
 					18B16B4B20F84B2B00F2032B = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Manual;
@@ -255,18 +518,46 @@
 				18B16B4B20F84B2B00F2032B /* CaseForStudy */,
 				18B16B6320F84B2B00F2032B /* CaseForStudyTests */,
 				18B16B6E20F84B2B00F2032B /* CaseForStudyUITests */,
+				02D6B477221FF6850053F607 /* CaseForStudyCeshi */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		02D6B491221FF6850053F607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02D6B492221FF6850053F607 /* 2.mp3 in Resources */,
+				02D6B493221FF6850053F607 /* 我好像在哪见过你_歌词.lrc in Resources */,
+				02D6B494221FF6850053F607 /* minganci.txt in Resources */,
+				02D6B495221FF6850053F607 /* LaunchScreen.storyboard in Resources */,
+				02D6B497221FF6850053F607 /* ZFMusic.plist in Resources */,
+				02D6B4A4221FFAEE0053F607 /* Ceshi.xcassets in Resources */,
+				02D6B498221FF6850053F607 /* Mark Ronson - Uptown Funk (feat. Bruno Mars).lrc in Resources */,
+				02D6B499221FF6850053F607 /* 1.lrc in Resources */,
+				02D6B49A221FF6850053F607 /* BUttonViewC.xib in Resources */,
+				02D6B49B221FF6850053F607 /* 2.lrc in Resources */,
+				02D6B49C221FF6850053F607 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		18B16B4A20F84B2B00F2032B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0276382721D4B9BF0066073E /* 2.mp3 in Resources */,
+				0276382021D4AD360066073E /* 我好像在哪见过你_歌词.lrc in Resources */,
 				18B16B8D20F8519D00F2032B /* minganci.txt in Resources */,
+				02D6B4A7221FFB650053F607 /* Images.xcassets in Resources */,
 				18B16B5C20F84B2B00F2032B /* LaunchScreen.storyboard in Resources */,
 				18B16B5920F84B2B00F2032B /* Assets.xcassets in Resources */,
+				0276381821D4AD360066073E /* ZFMusic.plist in Resources */,
+				0276382321D4AD360066073E /* Mark Ronson - Uptown Funk (feat. Bruno Mars).lrc in Resources */,
+				02D3DDFE222CFDD600B0E8D9 /* MalstViewController.xib in Resources */,
+				0276381721D4AD360066073E /* 1.lrc in Resources */,
+				02BA05C221BFB6240022F74B /* BUttonViewC.xib in Resources */,
+				0276381921D4AD360066073E /* 2.lrc in Resources */,
 				18B16B5720F84B2B00F2032B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,17 +578,151 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02D6B478221FF6850053F607 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CaseForStudyCeshi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		02D6B49D221FF6850053F607 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CaseForStudyCeshi/Pods-CaseForStudyCeshi-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CaseForStudyCeshi/Pods-CaseForStudyCeshi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		090B743D3AFAE00295C22307 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CaseForStudy/Pods-CaseForStudy-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CaseForStudy/Pods-CaseForStudy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2497CC232DA81466C18800AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CaseForStudy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		02D6B479221FF6850053F607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02D6B47A221FF6850053F607 /* BaseTableViewCell.m in Sources */,
+				02D6B47B221FF6850053F607 /* MusicLrcTool.m in Sources */,
+				02D6B47C221FF6850053F607 /* MusicLrcScrollView.m in Sources */,
+				02D6B47D221FF6850053F607 /* ZFLabel.m in Sources */,
+				02D6B47E221FF6850053F607 /* ViewController.m in Sources */,
+				02D6B47F221FF6850053F607 /* BUttonViewC.m in Sources */,
+				02D6B480221FF6850053F607 /* AssetModel.m in Sources */,
+				02D6B481221FF6850053F607 /* SensibiltyViewC.m in Sources */,
+				02D6B482221FF6850053F607 /* CALayer+PauseAimate.m in Sources */,
+				02D6B483221FF6850053F607 /* CFSTabBarConfig.m in Sources */,
+				02D6B484221FF6850053F607 /* NSString+ZFMusicExtension.m in Sources */,
+				02D6B485221FF6850053F607 /* ZFMusicCell.m in Sources */,
+				02D6B486221FF6850053F607 /* SensibilityTool.m in Sources */,
+				02D6B487221FF6850053F607 /* MusicViewController.m in Sources */,
+				02D6B488221FF6850053F607 /* MusicLrcModel.m in Sources */,
+				02D6B489221FF6850053F607 /* ZFMusicPlistModel.m in Sources */,
+				02D6B48A221FF6850053F607 /* main.m in Sources */,
+				02D6B48B221FF6850053F607 /* RuntimeViewController.m in Sources */,
+				02D6B48C221FF6850053F607 /* AppDelegate.m in Sources */,
+				02D6B48D221FF6850053F607 /* UIButton+Config.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		18B16B4820F84B2B00F2032B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				18B16B8820F84D8E00F2032B /* BaseTableViewCell.m in Sources */,
+				0276381C21D4AD360066073E /* MusicLrcTool.m in Sources */,
+				0276381F21D4AD360066073E /* MusicLrcScrollView.m in Sources */,
+				0276381E21D4AD360066073E /* ZFLabel.m in Sources */,
 				18B16B5420F84B2B00F2032B /* ViewController.m in Sources */,
+				02DE83E72227C0AC004AB212 /* UIButton+add.m in Sources */,
+				02D3DDFD222CFDD600B0E8D9 /* MalstViewController.m in Sources */,
+				02BA05C121BFB6240022F74B /* BUttonViewC.m in Sources */,
+				0276382221D4AD360066073E /* AssetModel.m in Sources */,
 				18B16B8B20F850B000F2032B /* SensibiltyViewC.m in Sources */,
+				0276381D21D4AD360066073E /* CALayer+PauseAimate.m in Sources */,
+				02BA05B921BFAFCB0022F74B /* CFSTabBarConfig.m in Sources */,
+				0276382521D4AD360066073E /* NSString+ZFMusicExtension.m in Sources */,
+				0276381B21D4AD360066073E /* ZFMusicCell.m in Sources */,
 				18B16B8320F84B8900F2032B /* SensibilityTool.m in Sources */,
+				0276381A21D4AD360066073E /* MusicViewController.m in Sources */,
+				0276382421D4AD360066073E /* MusicLrcModel.m in Sources */,
+				0276382121D4AD360066073E /* ZFMusicPlistModel.m in Sources */,
 				18B16B5F20F84B2B00F2032B /* main.m in Sources */,
+				027CD86B21E2F73F003EFD9A /* RuntimeViewController.m in Sources */,
 				18B16B5120F84B2B00F2032B /* AppDelegate.m in Sources */,
+				02BA05BD21BFB5C70022F74B /* UIButton+Config.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +777,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		02D6B49F221FF6850053F607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 743CEF55778F3B8FD047504F /* Pods-CaseForStudyCeshi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = C5HTCM3YNK;
+				GCC_PREFIX_HEADER = "$(ROOT)CaseForStudy/Macro/PrefixHeader.pch";
+				INFOPLIST_FILE = "CaseForStudy copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xfxb.CaseForStudy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ccf3f550-07bf-4733-b14d-93bbad2c04d9";
+				PROVISIONING_PROFILE_SPECIFIER = dev_all;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02D6B4A0221FF6850053F607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 573B2D5296257FFD3145845A /* Pods-CaseForStudyCeshi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = C5HTCM3YNK;
+				GCC_PREFIX_HEADER = "$(ROOT)CaseForStudy/Macro/PrefixHeader.pch";
+				INFOPLIST_FILE = "CaseForStudy copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xfxb.CaseForStudy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ccf3f550-07bf-4733-b14d-93bbad2c04d9";
+				PROVISIONING_PROFILE_SPECIFIER = dev_all;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		18B16B7620F84B2B00F2032B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -458,13 +921,17 @@
 		};
 		18B16B7920F84B2B00F2032B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0930CEE2A4D9B6B1AA8DB2A /* Pods-CaseForStudy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = C5HTCM3YNK;
+				GCC_PREFIX_HEADER = "$(ROOT)CaseForStudy/Macro/PrefixHeader.pch";
 				INFOPLIST_FILE = CaseForStudy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lks.CaseForStudy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xfxb.CaseForStudy001;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "ccf3f550-07bf-4733-b14d-93bbad2c04d9";
 				PROVISIONING_PROFILE_SPECIFIER = dev_all;
@@ -474,13 +941,17 @@
 		};
 		18B16B7A20F84B2B00F2032B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40ACD920D692559F3437E517 /* Pods-CaseForStudy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = C5HTCM3YNK;
+				GCC_PREFIX_HEADER = "$(ROOT)CaseForStudy/Macro/PrefixHeader.pch";
 				INFOPLIST_FILE = CaseForStudy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lks.CaseForStudy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xfxb.CaseForStudy001;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "ccf3f550-07bf-4733-b14d-93bbad2c04d9";
 				PROVISIONING_PROFILE_SPECIFIER = dev_all;
@@ -545,6 +1016,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		02D6B49E221FF6850053F607 /* Build configuration list for PBXNativeTarget "CaseForStudyCeshi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02D6B49F221FF6850053F607 /* Debug */,
+				02D6B4A0221FF6850053F607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		18B16B4720F84B2B00F2032B /* Build configuration list for PBXProject "CaseForStudy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
